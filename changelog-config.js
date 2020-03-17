@@ -1,0 +1,13 @@
+module.exports = function (Handlebars) {
+    Handlebars.registerHelper('contains', function(needle, haystack, options) {
+        needle = Handlebars.escapeExpression(needle);
+        haystack = Handlebars.escapeExpression(haystack);
+        return (haystack.indexOf(needle) > -1) ? options.fn(this) : options.inverse(this);
+    });
+  }
+
+//   module.exports = function (Handlebars) {
+//     Handlebars.registerHelper('custom', function (context, options) {
+//       return 'custom helpers!'
+//     })
+//   }
