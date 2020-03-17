@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/borelanjo/css-basic/compare/v0.1.0...HEAD)
+
+### Added
+
+### Changed
+
+- Atualiza template de changelog [`c60d972`](https://github.com/borelanjo/css-basic/commit/c60d972e102b6d5eb0a956298eb3ee6d4905e582)
+
+### Fixed
+
+### Removed
+
 ## v0.1.0 - 2020-03-17
 
 ### Added
