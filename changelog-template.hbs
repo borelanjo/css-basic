@@ -30,6 +30,9 @@
 {{#contains 'Altera' subject}}
 - {{#if breaking}}**Breaking change:** {{/if}}{{subject}} {{#if href}}[`{{shorthash}}`]({{href}}){{/if}}
 {{/contains}}
+{{#contains 'Atualiza' subject}}
+- {{#if breaking}}**Breaking change:** {{/if}}{{subject}} {{#if href}}[`{{shorthash}}`]({{href}}){{/if}}
+{{/contains}}
 {{/commit-list}}
 
 {{#commit-list commits heading='### Fixed'}}
